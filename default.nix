@@ -315,6 +315,8 @@ let
           inputs = result.inputs or { } // {
             self = flake;
           };
+
+          _type = "flake";
         };
     in
     flake;
